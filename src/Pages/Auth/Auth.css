@@ -57,7 +57,9 @@
 
 .auth-container-2 form label:nth-child(4) input{
     width:5%;
-    margin:13px 0px;
+    margin-left:0px;
+    margin-right:0px;
+    margin-bottom: 25px;
 }
 
 .auth-btn{
