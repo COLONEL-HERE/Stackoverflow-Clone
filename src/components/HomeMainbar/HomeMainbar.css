@@ -16,6 +16,7 @@
 }
 
 .main-bar-header .ask-btn{
+    cursor: pointer;
     padding: 10px 15px;
     border-radius: 4px;
     background-color: #009dff;
