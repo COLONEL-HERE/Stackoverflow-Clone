@@ -4,6 +4,7 @@
     transition: box-shadow ease-in-out 0.1s transform ease-in-out 0.1s;
     transform: translateZ(0);
     box-sizing: border-box;
+    font-size: 13px;
 }
 
 .side-nav{
@@ -12,4 +13,33 @@
     position: sticky;
     margin: 50px 0px;
     padding: 20px 0px;
+}
+
+.side-nav-div{
+    padding: 10px 0px;
+}
+
+.side-nav-div div{
+    padding-left: 10px;
+}
+
+.side-nav-links{
+    color: #3a3a3a;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+    transition: 0.2s;
+}
+
+.side-nav-links:hover{
+    color:black;
+}
+
+.active{
+    font-weight: bolder;
+    color: black;
+    background-color: rgb(222, 222, 222);
+    border-right: solid 3px #ef8236 ;
 }

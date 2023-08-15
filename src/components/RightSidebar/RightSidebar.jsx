@@ -1,10 +1,14 @@
 import React from 'react'
+import './RightSidebar.css'
+import Widgets from './Widgets'
+import WidgetTags from './WidgetTags'
 
 const RightSidebar = () => {
   return (
-    <div>
-      
-    </div>
+    <aside className="right-sidebar">
+      <Widgets />
+      <WidgetTags />
+    </aside>
   )
 }
 

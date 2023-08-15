@@ -9,6 +9,7 @@ const LeftSidebar = () => {
       <nav className="side-nav">
         <NavLink to='/' className='side-nav-links' activeClassName='active' >
           <p>Home</p>
+        </NavLink>
           <div className='side-nav-div'>
             <div><p>PUBLIC</p></div>
             <NavLink to='/Questions' className='side-nav-links' activeClassName='active' >
@@ -22,7 +23,6 @@ const LeftSidebar = () => {
               <p>Users</p>
             </NavLink>
           </div>
-        </NavLink>
       </nav>
     </div>
   )
